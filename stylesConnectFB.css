@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #4267B2; /* Facebook blue background color */
+}
+
+.container {
+  background-color: white;
+  padding: 60px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  width: 340px;
+  text-align: left;
+  font-weight: 400;
+}
+p{
+  text-align: center;
+}
+
+.header h2 {
+  margin-top: 0; /* Remove default margin from h2 */
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+  flex-grow: 1;
+}
+
+.label-group {
+  display: flex;
+  justify-content: space-between;
+}
+label{
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+.label-group label {
+  text-align: left;
+  margin-bottom: 8px; 
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.input-group label {
+  margin-left: 5px; /* Add margin between checkbox and label */
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4267B2; /* Facebook blue color */
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.login-link {
+  margin-top: 10px; /* Add margin to the top of the login link */
+}
+
+a {
+  color: #4267B2; /* Facebook blue link color */
+  text-decoration: none;
+}
